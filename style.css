@@ -47,7 +47,7 @@
     border-color:#042838;
 }
 #about-me {
-    box-shadow: 0px 10px 22px 0px rgba(0,0,0,0.75);;
+    box-shadow: 0px 10px 22px 0px rgba(0,0,0,0.75);
 }
 
 .sub-heading {
@@ -58,29 +58,59 @@
  
 }
 .hometown {
-    background-color: #042838;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid #EEF4CE;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .navy {
-    background-color: #042838;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc {
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    top: 30px;
+    text-align: center;
+    text-shadow: #042838;
+    height: 10vh;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.75);
+}
+.cali-desc {
+    color:#EEF4CE;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.75);   
+}
+.images {
+    /* box-shadow: 0px 10px 22px 0px rgba(0,0,0,0.75); */
+    position: relative;
+    z-index: 1;
     border-radius: 10px;
-    padding: 5px;
-    border: 5px solid #EEF4CE;
+    box-shadow: 0px 10px 22px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+}
+.cooking {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .interests {
-    background-color: #042838;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid #EEF4CE;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .design {
-    background-color: #042838;
-    border-radius: 10px;
-    border: 5px solid #EEF4CE;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .middle-container {
     padding: 10px;
@@ -91,7 +121,7 @@
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#042838", endColorstr="#5C8B9B", GradientType=1 );
 }
 .middle2-container {
-    height: 80vh;
+    height: 50vh;
     background: hsla(198, 87%, 12%, 1);
     background: linear-gradient(90deg, hsla(198, 87%, 12%, 1) 0%, hsla(195, 26%, 48%, 1) 52%);
     background: -moz-linear-gradient(90deg, hsla(198, 87%, 12%, 1) 0%, hsla(195, 26%, 48%, 1) 52%);
@@ -100,6 +130,8 @@
 }
 .headshot {
     border-radius: 100%;
+    margin-bottom: 20px;
+
 }
 .detail {
     font-size: 15px !important;
@@ -116,5 +148,5 @@ h2 {
     color: #EEF4CE;
 }
 h4 {
-    color: #EEF4CE;
+    color: #042838;
 }
