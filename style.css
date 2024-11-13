@@ -1,0 +1,120 @@
+#home {
+    height: 100vh;
+    background-image: url(assets/ocean.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+#name-intro {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #042838;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 100px;
+}
+#job-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #042838;
+    text-align: center;
+    vertical-align: middle;
+}
+.intro-text {
+   color: white;  
+   text-align: center;
+}
+.intro-overlay {
+    display: flex;
+    justify-content: center;
+    
+}
+#btn-row {
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.intro-btn {
+    color: #042838;
+    background-color: #EEF4CE;
+    border-color: #042838;
+    font-weight: bold;
+}
+.intro-btn:hover {
+    border-color:#042838;
+}
+#about-me {
+    box-shadow: 0px 10px 22px 0px rgba(0,0,0,0.75);;
+}
+
+.sub-heading {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #EEF4CE;
+ 
+}
+.hometown {
+    background-color: #042838;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #EEF4CE;
+}
+.navy {
+    background-color: #042838;
+    border-radius: 10px;
+    padding: 5px;
+    border: 5px solid #EEF4CE;
+}
+.interests {
+    background-color: #042838;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #EEF4CE;
+}
+.design {
+    background-color: #042838;
+    border-radius: 10px;
+    border: 5px solid #EEF4CE;
+}
+.middle-container {
+    padding: 10px;
+    background: hsla(198, 87%, 12%, 1);
+    background: linear-gradient(270deg, hsla(198, 87%, 12%, 1) 48%, hsla(195, 26%, 48%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(198, 87%, 12%, 1) 48%, hsla(195, 26%, 48%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(198, 87%, 12%, 1) 48%, hsla(195, 26%, 48%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#042838", endColorstr="#5C8B9B", GradientType=1 );
+}
+.middle2-container {
+    height: 80vh;
+    background: hsla(198, 87%, 12%, 1);
+    background: linear-gradient(90deg, hsla(198, 87%, 12%, 1) 0%, hsla(195, 26%, 48%, 1) 52%);
+    background: -moz-linear-gradient(90deg, hsla(198, 87%, 12%, 1) 0%, hsla(195, 26%, 48%, 1) 52%);
+    background: -webkit-linear-gradient(90deg, hsla(198, 87%, 12%, 1) 0%, hsla(195, 26%, 48%, 1) 52%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#042838", endColorstr="#5C8B9B", GradientType=1 );
+}
+.headshot {
+    border-radius: 100%;
+}
+.detail {
+    font-size: 15px !important;
+}
+
+#resume {
+    background-color: #4D5C60;
+    height: 50vh;
+}
+p {
+    color: #EEF4CE;
+}
+h2 {
+    color: #EEF4CE;
+}
+h4 {
+    color: #EEF4CE;
+}
